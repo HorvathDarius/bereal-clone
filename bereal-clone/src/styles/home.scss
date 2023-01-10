@@ -1,0 +1,40 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #211f1b;
+    overflow-x: hidden;
+    
+    .userInfo{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        flex-direction: column;
+        color: whitesmoke;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight: 900;
+    }
+
+    .scrollable{
+        display: flex;
+        flex: 8;
+        flex-direction: column;
+        overflow: scroll;
+
+        .ownPost{
+            display: flex;
+            height: 40%;
+            justify-content: center;
+            background-color: white;
+        }
+    
+        .allPosts{
+            display: flex;
+            height: 60%;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+
+}
