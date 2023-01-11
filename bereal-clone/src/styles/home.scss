@@ -20,21 +20,5 @@
         display: flex;
         flex: 8;
         flex-direction: column;
-        overflow: scroll;
-
-        .ownPost{
-            display: flex;
-            height: 40%;
-            justify-content: center;
-            background-color: white;
-        }
-    
-        .allPosts{
-            display: flex;
-            height: 60%;
-            align-items: center;
-            flex-direction: column;
-        }
     }
-
 }

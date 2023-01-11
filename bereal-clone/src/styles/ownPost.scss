@@ -1,0 +1,53 @@
+.ownContainer {
+    display: flex;
+    height: 40%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+    .ownPost{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75%;
+        width: 40%;
+        max-height: 75%;
+        max-width: 40%;
+        min-height: 75%;
+        min-width: 40%;
+        padding-bottom: 20px;
+        flex-direction: column;
+        position: relative;
+
+        .bigPhoto{
+            width: 100%;
+            height: 100%;
+            background-color: whitesmoke;
+            border-radius: 15px;
+            border: #211f1b 3px solid;
+            
+            .smallPhoto{
+                position: relative;
+                left: 5%;
+                top: 4%;
+                width: 60px;
+                height: 80px;
+                background-color: white;
+                border-radius: 15px;
+                border: #211f1b 3px solid;
+            }
+        }
+    }
+
+    .description{
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .time{
+        font-weight: 500;
+        color: rgb(192, 190, 190);
+    }
+}

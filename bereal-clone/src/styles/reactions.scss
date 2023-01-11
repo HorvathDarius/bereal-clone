@@ -1,0 +1,87 @@
+.reactionContainer{
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    z-index: 90;
+    top: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reactionContainer2{
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    z-index: 90;
+    top: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reactionContainer3{
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    z-index: 90;
+    top: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    :first-child{
+        z-index: 203;
+        position: absolute;
+        right: 57%;
+    }
+    :nth-child(2){
+        z-index: 202;
+        position: absolute;
+        right: 32%;
+    }
+    :last-child{
+        z-index: 201;
+        position: absolute;
+        right: 7%;
+    }
+}
+
+.reactionContainer4{
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    z-index: 90;
+    top: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    :first-child{
+        z-index: 204;
+        position: absolute;
+        right: 66%;
+    }
+    :nth-child(2){
+        z-index: 203;
+        position: absolute;
+        right: 44%;
+    }
+    :nth-child(3){
+        z-index: 202;
+        position: absolute;
+        right: 22%;
+    }
+    :last-child{
+        z-index: 201;
+        position: absolute;
+        right: 0%;
+        background-color: grey;
+        height: 78%;
+        width: 28%;
+        border-radius: 50%;
+        border: #211f1b 4px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+}

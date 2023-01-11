@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/home.scss';
 import Header from './Header';
+import Posts from './Posts';
 import ViewPosts from './ViewPosts';
 
 const Home = () => {
@@ -11,8 +12,7 @@ const Home = () => {
             <ViewPosts />
         </div>
         <div className="scrollable">
-            <div className="ownPost">Own Post</div>
-            <div className="allPosts">Other Posts</div>
+          <Posts />
         </div>
     </div>
   )
