@@ -5,6 +5,7 @@
     flex-direction: column;
     background-color: #211f1b;
     overflow-x: hidden;
+    position: relative;
     
     .userInfo{
         display: flex;
@@ -14,6 +15,10 @@
         color: whitesmoke;
         font-family: 'Hanken Grotesk', sans-serif;
         font-weight: 900;
+        padding-top: 20px;
+        position: sticky;
+        z-index: 200;
+        top: 0;
     }
 
     .scrollable{

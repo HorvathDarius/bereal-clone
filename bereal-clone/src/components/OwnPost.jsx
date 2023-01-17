@@ -11,7 +11,7 @@ const OwnPost = () => {
 
                 </div>
             </div>
-            <Reactions />
+            <Reactions reactionNumber={4}/>
         </div>
         <span className='description'>exam 2</span>
         <span className='time'>18:33:10</span>

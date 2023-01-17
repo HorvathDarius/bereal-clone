@@ -4,9 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba($color: #211f1b, $alpha: 0);
-    position: sticky;
     gap: 50px;
+    flex-shrink: 0;
 
     .friendsImg {
         width: 35px;
@@ -23,5 +22,6 @@
         height: 35px;
         background-color: whitesmoke;
         border-radius: 50%;
+        border: black 2px solid;
     }
 }

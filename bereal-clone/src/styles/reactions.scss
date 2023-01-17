@@ -18,6 +18,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    :first-child {
+        z-index: 203;
+        position: absolute;
+        right: 45%;
+    }
+    :last-child{
+        z-index: 202;
+        position: absolute;
+        right: 20%;
+    }
 }
 
 .reactionContainer3{

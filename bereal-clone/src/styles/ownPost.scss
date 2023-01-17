@@ -1,11 +1,13 @@
 .ownContainer {
     display: flex;
-    height: 40%;
+    height: 331px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     color: whitesmoke;
     font-family: 'Hanken Grotesk', sans-serif;
+    padding-bottom: 20px;
+    flex-shrink: 0;
 
     .ownPost{
         display: flex;

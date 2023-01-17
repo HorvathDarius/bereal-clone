@@ -2,10 +2,8 @@ import React from 'react';
 import '../styles/reactions.scss';
 import Reaction from './Reaction';
 
-const Reactions = () => {
-    const numberOfReactions = 4;
-
-    switch(numberOfReactions){
+const Reactions = ({reactionNumber}) => {
+    switch(reactionNumber){
         case 1:
             return (
                 <div className='reactionContainer'>

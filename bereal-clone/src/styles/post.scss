@@ -1,0 +1,110 @@
+.postContainer{
+    display: flex;
+    width: 100%;
+    flex-shrink: 0;
+    flex-direction: column;
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding-bottom: 30px;
+
+    .accountInfoContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // justify-content: center;
+        padding-left: 20px;
+
+        .profilePicture{
+            width: 45px;
+            height: 45px;
+            background-color: whitesmoke;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .accountTypings{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            .accountName{
+                color: whitesmoke;
+                font-weight: 900;
+                font-size: 19px;
+            }
+
+            .postingTime{
+                font-weight: 500;
+                color: rgb(192, 190, 190);
+            }
+        }
+
+        .moreIcon{
+            position: relative;
+            left: 60%;
+            color: whitesmoke;
+            font-size: 32px;
+        }
+    }
+
+    .postItselfContainer{
+        padding-top: 10px;
+        .bigPhoto {
+            width: 100%;
+            height: 600px;
+            background-color: rgb(206, 135, 135);
+            border-radius: 20px;
+            border: #211f1b 3px solid;
+    
+            .smallPhoto {
+                position: relative;
+                left: 5%;
+                top: 4%;
+                width: 100px;
+                height: 140px;
+                background-color: white;
+                border-radius: 15px;
+                border: #211f1b 3px solid;
+            }
+
+            .postInteractions{
+                position: relative;
+                top: 55%;
+                left: 80%;
+                width: 80px;
+                height: 120px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                .messageIcon{
+                    color: whitesmoke;
+                    font-size: 40px;
+                }
+
+                .reactIcon{
+                    color: whitesmoke;
+                    font-size: 40px;
+                }
+            }
+        }
+
+        .writings{
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            
+            .description{
+                color: whitesmoke;
+                font-weight: 900;
+                font-size: 19px;
+                margin-bottom: 5px;
+            }
+            
+            .comments{
+                color: rgb(192, 190, 190);
+            }
+        }
+    }
+}
