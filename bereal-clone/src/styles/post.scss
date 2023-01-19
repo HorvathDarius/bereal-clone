@@ -19,6 +19,7 @@
             background-color: whitesmoke;
             border-radius: 50%;
             margin-right: 10px;
+            cursor: pointer;
         }
 
         .accountTypings{
@@ -30,6 +31,7 @@
                 color: whitesmoke;
                 font-weight: 900;
                 font-size: 19px;
+                cursor: pointer;
             }
 
             .postingTime{
@@ -43,6 +45,7 @@
             left: 60%;
             color: whitesmoke;
             font-size: 32px;
+            cursor: pointer;
         }
     }
 
@@ -64,6 +67,7 @@
                 background-color: white;
                 border-radius: 15px;
                 border: #211f1b 3px solid;
+                cursor: pointer;
             }
 
             .postInteractions{
@@ -81,11 +85,13 @@
                 .messageIcon{
                     color: whitesmoke;
                     font-size: 40px;
+                    cursor: pointer;
                 }
 
                 .reactIcon{
                     color: whitesmoke;
                     font-size: 40px;
+                    cursor: pointer;
                 }
             }
         }
@@ -104,6 +110,7 @@
             
             .comments{
                 color: rgb(192, 190, 190);
+                cursor: pointer;
             }
         }
     }

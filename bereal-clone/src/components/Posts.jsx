@@ -8,8 +8,8 @@ const Posts = () => {
     <div className='posts'>
       <OwnPost />
       <div className="allPosts">
-        <Post />
-        <Post />
+        <Post reactionNumber={4}/>
+        <Post reactionNumber={2}/>
       </div>
     </div>
   )

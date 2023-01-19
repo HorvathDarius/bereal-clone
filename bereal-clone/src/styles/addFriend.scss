@@ -1,0 +1,72 @@
+.friend{
+    position: relative;
+    left: 20px;
+    width: 90%;
+    height: 90px;
+    padding: 10px 0;
+    // background-color: whitesmoke;
+    display: flex;
+    font-family: 'Hanken Grotesk', sans-serif;
+    align-items: center;
+
+    .friendProfilePic{
+        width: 65px;
+        height: 65px;
+        background-color: aqua;
+        border-radius: 50%;
+    }
+
+    .friendsDetails{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Hanken Grotesk', sans-serif;
+        position: relative;
+        left: 20px;
+
+        .berealDisplayName{
+            font-size: 20px;
+            font-weight: 900;
+            color: whitesmoke;
+        }
+
+        .berealUsername{
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(192, 190, 190);
+        }
+        
+        .contactsName{
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(192, 190, 190);
+        }
+
+        .mutualFriends{
+            font-size: 16px;
+            font-weight: 500;
+            color: rgb(192, 190, 190);
+        }
+    }
+
+    .addFriendButton{
+        position: relative;
+        border: none;
+        background-color: rgb(61, 61, 61);
+        color: white;
+        left: 70px;
+        width: 70px;
+        height: 40px;
+        border-radius: 15px;
+        font-size: 15px;
+        cursor: pointer;
+        
+    }
+    
+    .dismissIcon{
+        position: relative;
+        font-size: 30px;
+        color: whitesmoke;
+        left: 80px;
+        cursor: pointer;
+    }
+}

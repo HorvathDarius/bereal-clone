@@ -1,0 +1,128 @@
+.container{
+    .headerFriendsPage{
+        display: flex;
+        flex-shrink: 0;
+        height: 40px;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        color: whitesmoke;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight: 900;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        position: sticky;
+        z-index: 200;
+        top: 0;
+        
+        .logo{
+            position: relative;
+            font-size: 30px;
+            right: 30%;
+        }
+        
+        .backIcon{
+            position: relative;
+            right: 30px;
+            font-size: 32px;
+            cursor: pointer;
+        }
+    }
+
+    .scrollableFriends{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+
+        .searchFriends{
+            background-color: rgb(61, 61, 61);
+            width: 90%;
+            height: 54px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            color: rgb(192, 190, 190);
+
+            .searchIcon{
+                position: relative;
+                font-size: 36px;
+                left: 10px;
+            }
+
+            input{
+                font-size: 20px;
+                background-color: transparent;
+                border: none;
+                color: white;
+
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+
+        .shareAccount{
+            background-color: rgb(61, 61, 61);
+            width: 80%;
+            height: 50px;
+            margin: 20px 0;
+            border-radius: 15px;
+            display: flex;
+            padding: 20px;
+            gap: 10px;
+            justify-content: center;
+
+            .shareProfilePic{
+                width: 50px;
+                height: 50px;
+                background-color: aqua;
+                border-radius: 50%;
+            }
+
+            .shareWrittings{
+                color: whitesmoke;
+                font-family: 'Hanken Grotesk', sans-serif;
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+                height: 100%;
+
+                .shareTitle{
+                    font-size: 19px;
+                    font-weight: 900;
+                }
+
+                .shareLink{
+                    font-size: 18px;
+                }
+            }
+
+            .shareIcon{
+                color: whitesmoke;
+                font-size: 28px;
+                position: relative;
+                top: 10px;
+            }
+        }
+
+        .friendsSuggestions{
+            display: flex;
+            flex-shrink: 0;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            
+            .friendsDivider{
+                position: relative;
+                left: 20px;
+                color: aliceblue;
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-weight: bold;
+            }
+        }
+    }
+}

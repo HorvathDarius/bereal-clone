@@ -3,9 +3,9 @@ import '../styles/post.scss';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
 import EmojiEmotionsRoundedIcon from '@mui/icons-material/EmojiEmotionsRounded';
-import Reactions from './Reactions';
+import ReactionsPost from './ReactionsPost';
 
-const Post = () => {
+const Post = ({reactionNumber}) => {
   return (
     <div className='postContainer'>
       <div className="accountInfoContainer">
@@ -24,6 +24,7 @@ const Post = () => {
               <ChatBubbleIcon className='messageIcon'/>
               <EmojiEmotionsRoundedIcon className='reactIcon'/>
             </div>
+          <ReactionsPost reactionNumber={reactionNumber}/>
         </div>
         <div className="writings">
           <span className="description">random description man</span>

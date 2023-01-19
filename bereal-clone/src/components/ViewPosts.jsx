@@ -4,8 +4,8 @@ import '../styles/viewPosts.scss';
 const ViewPosts = () => {
   return (
       <div className="scope">
-          <span>My Friends</span>
-          <span>Discovery</span>
+          <span className='localPosts'>My Friends</span>
+          <span className='globalPosts'>Discovery</span>
       </div>
   )
 }
