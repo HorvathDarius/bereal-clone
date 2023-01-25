@@ -1,0 +1,202 @@
+.container{
+    font-family: 'Hanken Grotesk', sans-serif;
+
+    .accountHeader{
+        width: 100%;
+        height: 60px;
+        color: whitesmoke;
+        padding-top: 80px;
+        padding-left: 30px;
+        font-size: 24px;
+        display: flex;
+        gap: 20px;
+        z-index: 20;
+
+        .backArrow{
+            position: relative;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .moreIconAccount{
+            position: relative;
+            font-size: 30px;
+            left: 45%;
+            cursor: pointer;
+        }
+    }
+
+    .accountPageInfo{
+        width: 100%;
+        height: 58%;
+        position: absolute;
+
+        .accountProfilePicture{
+            width: 100%;
+            height: 80%;
+            z-index: 10;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .gradientDiv{
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(0deg, rgba(33, 31, 27, 1) 0%, rgba(199, 141, 25, 0) 20%);
+                z-index: 10;
+                position: absolute;
+                bottom: 20%;
+            }
+        }
+
+        .nameContainer{
+            display: flex;
+            position: relative;
+            z-index: 20;
+            bottom: 60px;
+            color: whitesmoke;
+            padding: 0 20px;
+            justify-content: space-between;
+            
+            .accountName{
+                font-size: 40px;
+                font-weight: 900;
+            }
+
+            .accountShareIcon{
+                font-size: 26px;
+                background-color: whitesmoke;
+                color: rgb(0, 0, 0);
+                padding: 7px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+        }
+
+        .infoContainer{
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            bottom: 30px;
+            font-weight: 400;
+            color: rgb(192, 190, 190);
+        }
+    }
+
+    .memoriesContainer{
+        width: 100%;
+        height: 43%;
+        position: relative;
+        top: 41%;
+        padding: 0 20px;
+
+        .titlesAndPrivacy{
+            display: flex;
+            justify-content: space-between;
+
+            span{
+                color: whitesmoke;
+                font-size: 23px;
+                font-weight: 900;
+            }
+
+            .privacyDiv{
+                color: rgb(192, 190, 190);
+                font-size: 14px;
+                position: relative;
+                right: 35px;
+                display: flex;
+                gap: 5px;
+                align-items: center;
+
+                .lockIcon{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .calendarContainer{
+        width: 86%;
+        height: 60%;
+        background-color: rgb(61, 61, 61);
+        border-radius: 15px;
+        padding-top: 20px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+
+        span{
+            color: whitesmoke;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .daysContainer{
+            width: 90%;
+            height: 60%;
+            padding: 0 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+
+            .calendarDay{
+                background-color: aqua;
+                width: 40px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: whitesmoke;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+            .onTimeCalendarDay{
+                background-color: aqua;
+                width: 34px;
+                height: 54px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: whitesmoke;
+                border-radius: 10px;
+                border: 3px whitesmoke solid;
+                cursor: pointer;
+            }
+
+            .currentCalendarDay{
+                background-color: aqua;
+                width: 40px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: whitesmoke;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+        }
+
+        button{
+            position: relative;
+            left: 60px;
+            top: 10px;
+            background-color: transparent;
+            width: 60%;
+            height: 40px;
+            color: white;
+            font-weight: 900;
+            font-size: 14px;
+            border-radius: 10px;
+            border: 2px rgb(192, 190, 190) solid;
+            cursor: pointer;
+        }
+    }
+
+}
